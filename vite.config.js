@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
   // GitHub Pages 배포를 위한 base path 설정
-  base: process.env.NODE_ENV === 'production' ? '/cheongsolhyang-pension-website/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/cheongsolhyanggga/' : '/',
   plugins: [
     react({
       // React Fast Refresh 최적화
